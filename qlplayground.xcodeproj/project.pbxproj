@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CA9010B1BAD6A6700E788B0 /* GenerateThumbnailForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9010A1BAD6A6700E788B0 /* GenerateThumbnailForURL.c */; };
+		6CA9010D1BAD6A6700E788B0 /* GeneratePreviewForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9010C1BAD6A6700E788B0 /* GeneratePreviewForURL.m */; };
+		6CA9010F1BAD6A6700E788B0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9010E1BAD6A6700E788B0 /* main.c */; };
+		6CA901AC1BAD792E00E788B0 /* CHANGES.md in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901171BAD787600E788B0 /* CHANGES.md */; };
+		6CA901AD1BAD792E00E788B0 /* highlight.pack.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901181BAD787600E788B0 /* highlight.pack.js */; };
+		6CA901AE1BAD792E00E788B0 /* LICENSE in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901191BAD787600E788B0 /* LICENSE */; };
+		6CA901AF1BAD792E00E788B0 /* README.md in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA9011A1BAD787600E788B0 /* README.md */; };
+		6CA901B31BAD799800E788B0 /* agate.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA9011D1BAD787600E788B0 /* agate.css */; };
+		6CA901B41BAD799800E788B0 /* androidstudio.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA9011E1BAD787600E788B0 /* androidstudio.css */; };
+		6CA901B51BAD799800E788B0 /* arta.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA9011F1BAD787600E788B0 /* arta.css */; };
+		6CA901B61BAD799800E788B0 /* ascetic.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901201BAD787600E788B0 /* ascetic.css */; };
+		6CA901B71BAD799800E788B0 /* atelier-cave.dark.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901211BAD787600E788B0 /* atelier-cave.dark.css */; };
+		6CA901B81BAD799800E788B0 /* atelier-cave.light.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901221BAD787600E788B0 /* atelier-cave.light.css */; };
+		6CA901B91BAD799800E788B0 /* atelier-dune.dark.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901231BAD787600E788B0 /* atelier-dune.dark.css */; };
+		6CA901BA1BAD799800E788B0 /* atelier-dune.light.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901241BAD787600E788B0 /* atelier-dune.light.css */; };
+		6CA901BB1BAD799800E788B0 /* atelier-estuary.dark.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901251BAD787600E788B0 /* atelier-estuary.dark.css */; };
+		6CA901BC1BAD799800E788B0 /* atelier-estuary.light.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901261BAD787600E788B0 /* atelier-estuary.light.css */; };
+		6CA901BD1BAD799800E788B0 /* atelier-forest.dark.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901271BAD787600E788B0 /* atelier-forest.dark.css */; };
+		6CA901BE1BAD799800E788B0 /* atelier-forest.light.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901281BAD787600E788B0 /* atelier-forest.light.css */; };
+		6CA901BF1BAD799800E788B0 /* atelier-heath.dark.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901291BAD787600E788B0 /* atelier-heath.dark.css */; };
+		6CA901C01BAD799800E788B0 /* atelier-heath.light.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA9012A1BAD787600E788B0 /* atelier-heath.light.css */; };
+		6CA901C11BAD799800E788B0 /* atelier-lakeside.dark.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA9012B1BAD787600E788B0 /* atelier-lakeside.dark.css */; };
+		6CA901C21BAD799800E788B0 /* atelier-lakeside.light.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA9012C1BAD787600E788B0 /* atelier-lakeside.light.css */; };
+		6CA901C31BAD799800E788B0 /* atelier-plateau.dark.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA9012D1BAD787600E788B0 /* atelier-plateau.dark.css */; };
+		6CA901C41BAD799800E788B0 /* atelier-plateau.light.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA9012E1BAD787600E788B0 /* atelier-plateau.light.css */; };
+		6CA901C51BAD799800E788B0 /* atelier-savanna.dark.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA9012F1BAD787600E788B0 /* atelier-savanna.dark.css */; };
+		6CA901C61BAD799800E788B0 /* atelier-savanna.light.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901301BAD787600E788B0 /* atelier-savanna.light.css */; };
+		6CA901C71BAD799800E788B0 /* atelier-seaside.dark.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901311BAD787600E788B0 /* atelier-seaside.dark.css */; };
+		6CA901C81BAD799800E788B0 /* atelier-seaside.light.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901321BAD787600E788B0 /* atelier-seaside.light.css */; };
+		6CA901C91BAD799800E788B0 /* atelier-sulphurpool.dark.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901331BAD787600E788B0 /* atelier-sulphurpool.dark.css */; };
+		6CA901CA1BAD799800E788B0 /* atelier-sulphurpool.light.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901341BAD787600E788B0 /* atelier-sulphurpool.light.css */; };
+		6CA901CB1BAD799800E788B0 /* brown_paper.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901351BAD787600E788B0 /* brown_paper.css */; };
+		6CA901CC1BAD799800E788B0 /* brown_papersq.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901361BAD787600E788B0 /* brown_papersq.png */; };
+		6CA901CD1BAD799800E788B0 /* codepen-embed.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901371BAD787600E788B0 /* codepen-embed.css */; };
+		6CA901CE1BAD799800E788B0 /* color-brewer.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901381BAD787600E788B0 /* color-brewer.css */; };
+		6CA901CF1BAD799800E788B0 /* dark.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901391BAD787600E788B0 /* dark.css */; };
+		6CA901D01BAD799800E788B0 /* darkula.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA9013A1BAD787600E788B0 /* darkula.css */; };
+		6CA901D11BAD799800E788B0 /* default.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA9013B1BAD787600E788B0 /* default.css */; };
+		6CA901D21BAD799800E788B0 /* docco.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA9013C1BAD787600E788B0 /* docco.css */; };
+		6CA901D31BAD799800E788B0 /* far.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA9013D1BAD787600E788B0 /* far.css */; };
+		6CA901D41BAD799800E788B0 /* foundation.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA9013E1BAD787600E788B0 /* foundation.css */; };
+		6CA901D51BAD799800E788B0 /* github-gist.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA9013F1BAD787600E788B0 /* github-gist.css */; };
+		6CA901D61BAD799800E788B0 /* github.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901401BAD787600E788B0 /* github.css */; };
+		6CA901D71BAD799800E788B0 /* googlecode.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901411BAD787600E788B0 /* googlecode.css */; };
+		6CA901D81BAD799800E788B0 /* grayscale.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901421BAD787600E788B0 /* grayscale.css */; };
+		6CA901D91BAD799800E788B0 /* hopscotch.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901431BAD787600E788B0 /* hopscotch.css */; };
+		6CA901DA1BAD799800E788B0 /* hybrid.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901441BAD787600E788B0 /* hybrid.css */; };
+		6CA901DB1BAD799800E788B0 /* idea.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901451BAD787600E788B0 /* idea.css */; };
+		6CA901DC1BAD799800E788B0 /* ir_black.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901461BAD787600E788B0 /* ir_black.css */; };
+		6CA901DD1BAD799800E788B0 /* kimbie.dark.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901471BAD787600E788B0 /* kimbie.dark.css */; };
+		6CA901DE1BAD799800E788B0 /* kimbie.light.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901481BAD787600E788B0 /* kimbie.light.css */; };
+		6CA901DF1BAD799800E788B0 /* magula.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901491BAD787600E788B0 /* magula.css */; };
+		6CA901E01BAD799800E788B0 /* mono-blue.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA9014A1BAD787600E788B0 /* mono-blue.css */; };
+		6CA901E11BAD799800E788B0 /* monokai.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA9014B1BAD787600E788B0 /* monokai.css */; };
+		6CA901E21BAD799800E788B0 /* monokai_sublime.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA9014C1BAD787600E788B0 /* monokai_sublime.css */; };
+		6CA901E31BAD799800E788B0 /* obsidian.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA9014D1BAD787600E788B0 /* obsidian.css */; };
+		6CA901E41BAD799800E788B0 /* paraiso.dark.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA9014E1BAD787600E788B0 /* paraiso.dark.css */; };
+		6CA901E51BAD799800E788B0 /* paraiso.light.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA9014F1BAD787600E788B0 /* paraiso.light.css */; };
+		6CA901E61BAD799800E788B0 /* pojoaque.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901501BAD787600E788B0 /* pojoaque.css */; };
+		6CA901E71BAD799800E788B0 /* pojoaque.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901511BAD787600E788B0 /* pojoaque.jpg */; };
+		6CA901E81BAD799800E788B0 /* railscasts.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901521BAD787600E788B0 /* railscasts.css */; };
+		6CA901E91BAD799800E788B0 /* rainbow.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901531BAD787600E788B0 /* rainbow.css */; };
+		6CA901EA1BAD799800E788B0 /* school_book.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901541BAD787600E788B0 /* school_book.css */; };
+		6CA901EB1BAD799800E788B0 /* school_book.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901551BAD787600E788B0 /* school_book.png */; };
+		6CA901EC1BAD799800E788B0 /* solarized_dark.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901561BAD787600E788B0 /* solarized_dark.css */; };
+		6CA901ED1BAD799800E788B0 /* solarized_light.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901571BAD787600E788B0 /* solarized_light.css */; };
+		6CA901EE1BAD799800E788B0 /* sunburst.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901581BAD787600E788B0 /* sunburst.css */; };
+		6CA901EF1BAD799800E788B0 /* tomorrow-night-blue.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901591BAD787600E788B0 /* tomorrow-night-blue.css */; };
+		6CA901F01BAD799800E788B0 /* tomorrow-night-bright.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA9015A1BAD787600E788B0 /* tomorrow-night-bright.css */; };
+		6CA901F11BAD799900E788B0 /* tomorrow-night-eighties.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA9015B1BAD787600E788B0 /* tomorrow-night-eighties.css */; };
+		6CA901F21BAD799900E788B0 /* tomorrow-night.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA9015C1BAD787600E788B0 /* tomorrow-night.css */; };
+		6CA901F31BAD799900E788B0 /* tomorrow.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA9015D1BAD787600E788B0 /* tomorrow.css */; };
+		6CA901F41BAD799900E788B0 /* vs.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA9015E1BAD787600E788B0 /* vs.css */; };
+		6CA901F51BAD799900E788B0 /* xcode.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA9015F1BAD787600E788B0 /* xcode.css */; };
+		6CA901F61BAD799900E788B0 /* zenburn.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901601BAD787600E788B0 /* zenburn.css */; };
+		6CA901FC1BAD95AE00E788B0 /* Highlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA901FB1BAD95AE00E788B0 /* Highlight.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6CA901AB1BAD790300E788B0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = highlight;
+			dstSubfolderSpec = 7;
+			files = (
+				6CA901AC1BAD792E00E788B0 /* CHANGES.md in CopyFiles */,
+				6CA901AD1BAD792E00E788B0 /* highlight.pack.js in CopyFiles */,
+				6CA901AE1BAD792E00E788B0 /* LICENSE in CopyFiles */,
+				6CA901AF1BAD792E00E788B0 /* README.md in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA901B21BAD797F00E788B0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = highlight/styles;
+			dstSubfolderSpec = 7;
+			files = (
+				6CA901B31BAD799800E788B0 /* agate.css in CopyFiles */,
+				6CA901B41BAD799800E788B0 /* androidstudio.css in CopyFiles */,
+				6CA901B51BAD799800E788B0 /* arta.css in CopyFiles */,
+				6CA901B61BAD799800E788B0 /* ascetic.css in CopyFiles */,
+				6CA901B71BAD799800E788B0 /* atelier-cave.dark.css in CopyFiles */,
+				6CA901B81BAD799800E788B0 /* atelier-cave.light.css in CopyFiles */,
+				6CA901B91BAD799800E788B0 /* atelier-dune.dark.css in CopyFiles */,
+				6CA901BA1BAD799800E788B0 /* atelier-dune.light.css in CopyFiles */,
+				6CA901BB1BAD799800E788B0 /* atelier-estuary.dark.css in CopyFiles */,
+				6CA901BC1BAD799800E788B0 /* atelier-estuary.light.css in CopyFiles */,
+				6CA901BD1BAD799800E788B0 /* atelier-forest.dark.css in CopyFiles */,
+				6CA901BE1BAD799800E788B0 /* atelier-forest.light.css in CopyFiles */,
+				6CA901BF1BAD799800E788B0 /* atelier-heath.dark.css in CopyFiles */,
+				6CA901C01BAD799800E788B0 /* atelier-heath.light.css in CopyFiles */,
+				6CA901C11BAD799800E788B0 /* atelier-lakeside.dark.css in CopyFiles */,
+				6CA901C21BAD799800E788B0 /* atelier-lakeside.light.css in CopyFiles */,
+				6CA901C31BAD799800E788B0 /* atelier-plateau.dark.css in CopyFiles */,
+				6CA901C41BAD799800E788B0 /* atelier-plateau.light.css in CopyFiles */,
+				6CA901C51BAD799800E788B0 /* atelier-savanna.dark.css in CopyFiles */,
+				6CA901C61BAD799800E788B0 /* atelier-savanna.light.css in CopyFiles */,
+				6CA901C71BAD799800E788B0 /* atelier-seaside.dark.css in CopyFiles */,
+				6CA901C81BAD799800E788B0 /* atelier-seaside.light.css in CopyFiles */,
+				6CA901C91BAD799800E788B0 /* atelier-sulphurpool.dark.css in CopyFiles */,
+				6CA901CA1BAD799800E788B0 /* atelier-sulphurpool.light.css in CopyFiles */,
+				6CA901CB1BAD799800E788B0 /* brown_paper.css in CopyFiles */,
+				6CA901CC1BAD799800E788B0 /* brown_papersq.png in CopyFiles */,
+				6CA901CD1BAD799800E788B0 /* codepen-embed.css in CopyFiles */,
+				6CA901CE1BAD799800E788B0 /* color-brewer.css in CopyFiles */,
+				6CA901CF1BAD799800E788B0 /* dark.css in CopyFiles */,
+				6CA901D01BAD799800E788B0 /* darkula.css in CopyFiles */,
+				6CA901D11BAD799800E788B0 /* default.css in CopyFiles */,
+				6CA901D21BAD799800E788B0 /* docco.css in CopyFiles */,
+				6CA901D31BAD799800E788B0 /* far.css in CopyFiles */,
+				6CA901D41BAD799800E788B0 /* foundation.css in CopyFiles */,
+				6CA901D51BAD799800E788B0 /* github-gist.css in CopyFiles */,
+				6CA901D61BAD799800E788B0 /* github.css in CopyFiles */,
+				6CA901D71BAD799800E788B0 /* googlecode.css in CopyFiles */,
+				6CA901D81BAD799800E788B0 /* grayscale.css in CopyFiles */,
+				6CA901D91BAD799800E788B0 /* hopscotch.css in CopyFiles */,
+				6CA901DA1BAD799800E788B0 /* hybrid.css in CopyFiles */,
+				6CA901DB1BAD799800E788B0 /* idea.css in CopyFiles */,
+				6CA901DC1BAD799800E788B0 /* ir_black.css in CopyFiles */,
+				6CA901DD1BAD799800E788B0 /* kimbie.dark.css in CopyFiles */,
+				6CA901DE1BAD799800E788B0 /* kimbie.light.css in CopyFiles */,
+				6CA901DF1BAD799800E788B0 /* magula.css in CopyFiles */,
+				6CA901E01BAD799800E788B0 /* mono-blue.css in CopyFiles */,
+				6CA901E11BAD799800E788B0 /* monokai.css in CopyFiles */,
+				6CA901E21BAD799800E788B0 /* monokai_sublime.css in CopyFiles */,
+				6CA901E31BAD799800E788B0 /* obsidian.css in CopyFiles */,
+				6CA901E41BAD799800E788B0 /* paraiso.dark.css in CopyFiles */,
+				6CA901E51BAD799800E788B0 /* paraiso.light.css in CopyFiles */,
+				6CA901E61BAD799800E788B0 /* pojoaque.css in CopyFiles */,
+				6CA901E71BAD799800E788B0 /* pojoaque.jpg in CopyFiles */,
+				6CA901E81BAD799800E788B0 /* railscasts.css in CopyFiles */,
+				6CA901E91BAD799800E788B0 /* rainbow.css in CopyFiles */,
+				6CA901EA1BAD799800E788B0 /* school_book.css in CopyFiles */,
+				6CA901EB1BAD799800E788B0 /* school_book.png in CopyFiles */,
+				6CA901EC1BAD799800E788B0 /* solarized_dark.css in CopyFiles */,
+				6CA901ED1BAD799800E788B0 /* solarized_light.css in CopyFiles */,
+				6CA901EE1BAD799800E788B0 /* sunburst.css in CopyFiles */,
+				6CA901EF1BAD799800E788B0 /* tomorrow-night-blue.css in CopyFiles */,
+				6CA901F01BAD799800E788B0 /* tomorrow-night-bright.css in CopyFiles */,
+				6CA901F11BAD799900E788B0 /* tomorrow-night-eighties.css in CopyFiles */,
+				6CA901F21BAD799900E788B0 /* tomorrow-night.css in CopyFiles */,
+				6CA901F31BAD799900E788B0 /* tomorrow.css in CopyFiles */,
+				6CA901F41BAD799900E788B0 /* vs.css in CopyFiles */,
+				6CA901F51BAD799900E788B0 /* xcode.css in CopyFiles */,
+				6CA901F61BAD799900E788B0 /* zenburn.css in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6CA901071BAD6A6700E788B0 /* qlplayground.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qlplayground.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA9010A1BAD6A6700E788B0 /* GenerateThumbnailForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GenerateThumbnailForURL.c; sourceTree = "<group>"; };
+		6CA9010C1BAD6A6700E788B0 /* GeneratePreviewForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneratePreviewForURL.m; sourceTree = "<group>"; };
+		6CA9010E1BAD6A6700E788B0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		6CA901101BAD6A6700E788B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CA901171BAD787600E788B0 /* CHANGES.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGES.md; sourceTree = "<group>"; };
+		6CA901181BAD787600E788B0 /* highlight.pack.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = highlight.pack.js; sourceTree = "<group>"; };
+		6CA901191BAD787600E788B0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6CA9011A1BAD787600E788B0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6CA9011B1BAD787600E788B0 /* README.ru.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.ru.md; sourceTree = "<group>"; };
+		6CA9011D1BAD787600E788B0 /* agate.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = agate.css; sourceTree = "<group>"; };
+		6CA9011E1BAD787600E788B0 /* androidstudio.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = androidstudio.css; sourceTree = "<group>"; };
+		6CA9011F1BAD787600E788B0 /* arta.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = arta.css; sourceTree = "<group>"; };
+		6CA901201BAD787600E788B0 /* ascetic.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ascetic.css; sourceTree = "<group>"; };
+		6CA901211BAD787600E788B0 /* atelier-cave.dark.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-cave.dark.css"; sourceTree = "<group>"; };
+		6CA901221BAD787600E788B0 /* atelier-cave.light.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-cave.light.css"; sourceTree = "<group>"; };
+		6CA901231BAD787600E788B0 /* atelier-dune.dark.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-dune.dark.css"; sourceTree = "<group>"; };
+		6CA901241BAD787600E788B0 /* atelier-dune.light.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-dune.light.css"; sourceTree = "<group>"; };
+		6CA901251BAD787600E788B0 /* atelier-estuary.dark.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-estuary.dark.css"; sourceTree = "<group>"; };
+		6CA901261BAD787600E788B0 /* atelier-estuary.light.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-estuary.light.css"; sourceTree = "<group>"; };
+		6CA901271BAD787600E788B0 /* atelier-forest.dark.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-forest.dark.css"; sourceTree = "<group>"; };
+		6CA901281BAD787600E788B0 /* atelier-forest.light.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-forest.light.css"; sourceTree = "<group>"; };
+		6CA901291BAD787600E788B0 /* atelier-heath.dark.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-heath.dark.css"; sourceTree = "<group>"; };
+		6CA9012A1BAD787600E788B0 /* atelier-heath.light.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-heath.light.css"; sourceTree = "<group>"; };
+		6CA9012B1BAD787600E788B0 /* atelier-lakeside.dark.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-lakeside.dark.css"; sourceTree = "<group>"; };
+		6CA9012C1BAD787600E788B0 /* atelier-lakeside.light.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-lakeside.light.css"; sourceTree = "<group>"; };
+		6CA9012D1BAD787600E788B0 /* atelier-plateau.dark.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-plateau.dark.css"; sourceTree = "<group>"; };
+		6CA9012E1BAD787600E788B0 /* atelier-plateau.light.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-plateau.light.css"; sourceTree = "<group>"; };
+		6CA9012F1BAD787600E788B0 /* atelier-savanna.dark.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-savanna.dark.css"; sourceTree = "<group>"; };
+		6CA901301BAD787600E788B0 /* atelier-savanna.light.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-savanna.light.css"; sourceTree = "<group>"; };
+		6CA901311BAD787600E788B0 /* atelier-seaside.dark.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-seaside.dark.css"; sourceTree = "<group>"; };
+		6CA901321BAD787600E788B0 /* atelier-seaside.light.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-seaside.light.css"; sourceTree = "<group>"; };
+		6CA901331BAD787600E788B0 /* atelier-sulphurpool.dark.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-sulphurpool.dark.css"; sourceTree = "<group>"; };
+		6CA901341BAD787600E788B0 /* atelier-sulphurpool.light.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-sulphurpool.light.css"; sourceTree = "<group>"; };
+		6CA901351BAD787600E788B0 /* brown_paper.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = brown_paper.css; sourceTree = "<group>"; };
+		6CA901361BAD787600E788B0 /* brown_papersq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brown_papersq.png; sourceTree = "<group>"; };
+		6CA901371BAD787600E788B0 /* codepen-embed.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "codepen-embed.css"; sourceTree = "<group>"; };
+		6CA901381BAD787600E788B0 /* color-brewer.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "color-brewer.css"; sourceTree = "<group>"; };
+		6CA901391BAD787600E788B0 /* dark.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = dark.css; sourceTree = "<group>"; };
+		6CA9013A1BAD787600E788B0 /* darkula.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = darkula.css; sourceTree = "<group>"; };
+		6CA9013B1BAD787600E788B0 /* default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = default.css; sourceTree = "<group>"; };
+		6CA9013C1BAD787600E788B0 /* docco.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = docco.css; sourceTree = "<group>"; };
+		6CA9013D1BAD787600E788B0 /* far.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = far.css; sourceTree = "<group>"; };
+		6CA9013E1BAD787600E788B0 /* foundation.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = foundation.css; sourceTree = "<group>"; };
+		6CA9013F1BAD787600E788B0 /* github-gist.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "github-gist.css"; sourceTree = "<group>"; };
+		6CA901401BAD787600E788B0 /* github.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = github.css; sourceTree = "<group>"; };
+		6CA901411BAD787600E788B0 /* googlecode.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = googlecode.css; sourceTree = "<group>"; };
+		6CA901421BAD787600E788B0 /* grayscale.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = grayscale.css; sourceTree = "<group>"; };
+		6CA901431BAD787600E788B0 /* hopscotch.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = hopscotch.css; sourceTree = "<group>"; };
+		6CA901441BAD787600E788B0 /* hybrid.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = hybrid.css; sourceTree = "<group>"; };
+		6CA901451BAD787600E788B0 /* idea.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = idea.css; sourceTree = "<group>"; };
+		6CA901461BAD787600E788B0 /* ir_black.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ir_black.css; sourceTree = "<group>"; };
+		6CA901471BAD787600E788B0 /* kimbie.dark.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = kimbie.dark.css; sourceTree = "<group>"; };
+		6CA901481BAD787600E788B0 /* kimbie.light.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = kimbie.light.css; sourceTree = "<group>"; };
+		6CA901491BAD787600E788B0 /* magula.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = magula.css; sourceTree = "<group>"; };
+		6CA9014A1BAD787600E788B0 /* mono-blue.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "mono-blue.css"; sourceTree = "<group>"; };
+		6CA9014B1BAD787600E788B0 /* monokai.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = monokai.css; sourceTree = "<group>"; };
+		6CA9014C1BAD787600E788B0 /* monokai_sublime.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = monokai_sublime.css; sourceTree = "<group>"; };
+		6CA9014D1BAD787600E788B0 /* obsidian.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = obsidian.css; sourceTree = "<group>"; };
+		6CA9014E1BAD787600E788B0 /* paraiso.dark.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = paraiso.dark.css; sourceTree = "<group>"; };
+		6CA9014F1BAD787600E788B0 /* paraiso.light.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = paraiso.light.css; sourceTree = "<group>"; };
+		6CA901501BAD787600E788B0 /* pojoaque.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = pojoaque.css; sourceTree = "<group>"; };
+		6CA901511BAD787600E788B0 /* pojoaque.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pojoaque.jpg; sourceTree = "<group>"; };
+		6CA901521BAD787600E788B0 /* railscasts.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = railscasts.css; sourceTree = "<group>"; };
+		6CA901531BAD787600E788B0 /* rainbow.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = rainbow.css; sourceTree = "<group>"; };
+		6CA901541BAD787600E788B0 /* school_book.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = school_book.css; sourceTree = "<group>"; };
+		6CA901551BAD787600E788B0 /* school_book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = school_book.png; sourceTree = "<group>"; };
+		6CA901561BAD787600E788B0 /* solarized_dark.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = solarized_dark.css; sourceTree = "<group>"; };
+		6CA901571BAD787600E788B0 /* solarized_light.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = solarized_light.css; sourceTree = "<group>"; };
+		6CA901581BAD787600E788B0 /* sunburst.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = sunburst.css; sourceTree = "<group>"; };
+		6CA901591BAD787600E788B0 /* tomorrow-night-blue.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "tomorrow-night-blue.css"; sourceTree = "<group>"; };
+		6CA9015A1BAD787600E788B0 /* tomorrow-night-bright.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "tomorrow-night-bright.css"; sourceTree = "<group>"; };
+		6CA9015B1BAD787600E788B0 /* tomorrow-night-eighties.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "tomorrow-night-eighties.css"; sourceTree = "<group>"; };
+		6CA9015C1BAD787600E788B0 /* tomorrow-night.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "tomorrow-night.css"; sourceTree = "<group>"; };
+		6CA9015D1BAD787600E788B0 /* tomorrow.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = tomorrow.css; sourceTree = "<group>"; };
+		6CA9015E1BAD787600E788B0 /* vs.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = vs.css; sourceTree = "<group>"; };
+		6CA9015F1BAD787600E788B0 /* xcode.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = xcode.css; sourceTree = "<group>"; };
+		6CA901601BAD787600E788B0 /* zenburn.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = zenburn.css; sourceTree = "<group>"; };
+		6CA901FB1BAD95AE00E788B0 /* Highlight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Highlight.swift; sourceTree = "<group>"; };
+		6CA901FE1BAE422700E788B0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6CA901FF1BAE422700E788B0 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CA901031BAD6A6700E788B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CA900FD1BAD6A6700E788B0 = {
+			isa = PBXGroup;
+			children = (
+				6CA901FE1BAE422700E788B0 /* README.md */,
+				6CA901FF1BAE422700E788B0 /* LICENSE */,
+				6CA901161BAD787600E788B0 /* highlight */,
+				6CA901091BAD6A6700E788B0 /* qlplayground */,
+				6CA901081BAD6A6700E788B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CA901081BAD6A6700E788B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CA901071BAD6A6700E788B0 /* qlplayground.qlgenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CA901091BAD6A6700E788B0 /* qlplayground */ = {
+			isa = PBXGroup;
+			children = (
+				6CA9010A1BAD6A6700E788B0 /* GenerateThumbnailForURL.c */,
+				6CA9010C1BAD6A6700E788B0 /* GeneratePreviewForURL.m */,
+				6CA901FB1BAD95AE00E788B0 /* Highlight.swift */,
+				6CA9010E1BAD6A6700E788B0 /* main.c */,
+				6CA901101BAD6A6700E788B0 /* Info.plist */,
+			);
+			path = qlplayground;
+			sourceTree = "<group>";
+		};
+		6CA901161BAD787600E788B0 /* highlight */ = {
+			isa = PBXGroup;
+			children = (
+				6CA901171BAD787600E788B0 /* CHANGES.md */,
+				6CA901181BAD787600E788B0 /* highlight.pack.js */,
+				6CA901191BAD787600E788B0 /* LICENSE */,
+				6CA9011A1BAD787600E788B0 /* README.md */,
+				6CA9011B1BAD787600E788B0 /* README.ru.md */,
+				6CA9011C1BAD787600E788B0 /* styles */,
+			);
+			name = highlight;
+			path = qlplayground/highlight;
+			sourceTree = "<group>";
+		};
+		6CA9011C1BAD787600E788B0 /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				6CA9011D1BAD787600E788B0 /* agate.css */,
+				6CA9011E1BAD787600E788B0 /* androidstudio.css */,
+				6CA9011F1BAD787600E788B0 /* arta.css */,
+				6CA901201BAD787600E788B0 /* ascetic.css */,
+				6CA901211BAD787600E788B0 /* atelier-cave.dark.css */,
+				6CA901221BAD787600E788B0 /* atelier-cave.light.css */,
+				6CA901231BAD787600E788B0 /* atelier-dune.dark.css */,
+				6CA901241BAD787600E788B0 /* atelier-dune.light.css */,
+				6CA901251BAD787600E788B0 /* atelier-estuary.dark.css */,
+				6CA901261BAD787600E788B0 /* atelier-estuary.light.css */,
+				6CA901271BAD787600E788B0 /* atelier-forest.dark.css */,
+				6CA901281BAD787600E788B0 /* atelier-forest.light.css */,
+				6CA901291BAD787600E788B0 /* atelier-heath.dark.css */,
+				6CA9012A1BAD787600E788B0 /* atelier-heath.light.css */,
+				6CA9012B1BAD787600E788B0 /* atelier-lakeside.dark.css */,
+				6CA9012C1BAD787600E788B0 /* atelier-lakeside.light.css */,
+				6CA9012D1BAD787600E788B0 /* atelier-plateau.dark.css */,
+				6CA9012E1BAD787600E788B0 /* atelier-plateau.light.css */,
+				6CA9012F1BAD787600E788B0 /* atelier-savanna.dark.css */,
+				6CA901301BAD787600E788B0 /* atelier-savanna.light.css */,
+				6CA901311BAD787600E788B0 /* atelier-seaside.dark.css */,
+				6CA901321BAD787600E788B0 /* atelier-seaside.light.css */,
+				6CA901331BAD787600E788B0 /* atelier-sulphurpool.dark.css */,
+				6CA901341BAD787600E788B0 /* atelier-sulphurpool.light.css */,
+				6CA901351BAD787600E788B0 /* brown_paper.css */,
+				6CA901361BAD787600E788B0 /* brown_papersq.png */,
+				6CA901371BAD787600E788B0 /* codepen-embed.css */,
+				6CA901381BAD787600E788B0 /* color-brewer.css */,
+				6CA901391BAD787600E788B0 /* dark.css */,
+				6CA9013A1BAD787600E788B0 /* darkula.css */,
+				6CA9013B1BAD787600E788B0 /* default.css */,
+				6CA9013C1BAD787600E788B0 /* docco.css */,
+				6CA9013D1BAD787600E788B0 /* far.css */,
+				6CA9013E1BAD787600E788B0 /* foundation.css */,
+				6CA9013F1BAD787600E788B0 /* github-gist.css */,
+				6CA901401BAD787600E788B0 /* github.css */,
+				6CA901411BAD787600E788B0 /* googlecode.css */,
+				6CA901421BAD787600E788B0 /* grayscale.css */,
+				6CA901431BAD787600E788B0 /* hopscotch.css */,
+				6CA901441BAD787600E788B0 /* hybrid.css */,
+				6CA901451BAD787600E788B0 /* idea.css */,
+				6CA901461BAD787600E788B0 /* ir_black.css */,
+				6CA901471BAD787600E788B0 /* kimbie.dark.css */,
+				6CA901481BAD787600E788B0 /* kimbie.light.css */,
+				6CA901491BAD787600E788B0 /* magula.css */,
+				6CA9014A1BAD787600E788B0 /* mono-blue.css */,
+				6CA9014B1BAD787600E788B0 /* monokai.css */,
+				6CA9014C1BAD787600E788B0 /* monokai_sublime.css */,
+				6CA9014D1BAD787600E788B0 /* obsidian.css */,
+				6CA9014E1BAD787600E788B0 /* paraiso.dark.css */,
+				6CA9014F1BAD787600E788B0 /* paraiso.light.css */,
+				6CA901501BAD787600E788B0 /* pojoaque.css */,
+				6CA901511BAD787600E788B0 /* pojoaque.jpg */,
+				6CA901521BAD787600E788B0 /* railscasts.css */,
+				6CA901531BAD787600E788B0 /* rainbow.css */,
+				6CA901541BAD787600E788B0 /* school_book.css */,
+				6CA901551BAD787600E788B0 /* school_book.png */,
+				6CA901561BAD787600E788B0 /* solarized_dark.css */,
+				6CA901571BAD787600E788B0 /* solarized_light.css */,
+				6CA901581BAD787600E788B0 /* sunburst.css */,
+				6CA901591BAD787600E788B0 /* tomorrow-night-blue.css */,
+				6CA9015A1BAD787600E788B0 /* tomorrow-night-bright.css */,
+				6CA9015B1BAD787600E788B0 /* tomorrow-night-eighties.css */,
+				6CA9015C1BAD787600E788B0 /* tomorrow-night.css */,
+				6CA9015D1BAD787600E788B0 /* tomorrow.css */,
+				6CA9015E1BAD787600E788B0 /* vs.css */,
+				6CA9015F1BAD787600E788B0 /* xcode.css */,
+				6CA901601BAD787600E788B0 /* zenburn.css */,
+			);
+			path = styles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6CA901041BAD6A6700E788B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6CA901061BAD6A6700E788B0 /* qlplayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA901131BAD6A6700E788B0 /* Build configuration list for PBXNativeTarget "qlplayground" */;
+			buildPhases = (
+				6CA901021BAD6A6700E788B0 /* Sources */,
+				6CA901031BAD6A6700E788B0 /* Frameworks */,
+				6CA901041BAD6A6700E788B0 /* Headers */,
+				6CA901AB1BAD790300E788B0 /* CopyFiles */,
+				6CA901B21BAD797F00E788B0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qlplayground;
+			productName = qlplayground;
+			productReference = 6CA901071BAD6A6700E788B0 /* qlplayground.qlgenerator */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CA900FE1BAD6A6700E788B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Norio Nomura";
+				TargetAttributes = {
+					6CA901061BAD6A6700E788B0 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 6CA901011BAD6A6700E788B0 /* Build configuration list for PBXProject "qlplayground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6CA900FD1BAD6A6700E788B0;
+			productRefGroup = 6CA901081BAD6A6700E788B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CA901061BAD6A6700E788B0 /* qlplayground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CA901021BAD6A6700E788B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA9010B1BAD6A6700E788B0 /* GenerateThumbnailForURL.c in Sources */,
+				6CA9010D1BAD6A6700E788B0 /* GeneratePreviewForURL.m in Sources */,
+				6CA901FC1BAD95AE00E788B0 /* Highlight.swift in Sources */,
+				6CA9010F1BAD6A6700E788B0 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6CA901111BAD6A6700E788B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6CA901121BAD6A6700E788B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6CA901141BAD6A6700E788B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = qlplayground/Info.plist;
+				INSTALL_PATH = /Library/QuickLook;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.norio-nomura.qlplayground";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Debug;
+		};
+		6CA901151BAD6A6700E788B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = qlplayground/Info.plist;
+				INSTALL_PATH = /Library/QuickLook;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.norio-nomura.qlplayground";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CA901011BAD6A6700E788B0 /* Build configuration list for PBXProject "qlplayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA901111BAD6A6700E788B0 /* Debug */,
+				6CA901121BAD6A6700E788B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA901131BAD6A6700E788B0 /* Build configuration list for PBXNativeTarget "qlplayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA901141BAD6A6700E788B0 /* Debug */,
+				6CA901151BAD6A6700E788B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CA900FE1BAD6A6700E788B0 /* Project object */;
+}
