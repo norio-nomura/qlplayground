@@ -16,6 +16,13 @@
 - OS X 10.10.5 or later
 
 ## Installation
+
+### Using [Homebrew Cask](http://caskroom.io)
+```sh
+brew cask install qlplayground
+```
+
+### Manual
 1. Download [qlplayground.qlgenerator-0.2.zip](http://github.com/norio-nomura/qlplayground/releases/download/0.2/qlplayground.qlgenerator-0.2.zip) (2015/09/21 updated)
 2. Unzip it
 3. Move `qlplayground.qlgenerator` to `~/Library/QuickLook` folder
