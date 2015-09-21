@@ -7,8 +7,9 @@
 ![thumbnail](img/thumbnail.png)
 
 ## Features
-- Support `.swift`
 - Support `.playground` containing multiple pages
+- Support `.swift`
+- Support Preview and Thumbnail
 - Syntax highlight by [Highlight.js](https://github.com/isagalaev/highlight.js)
 
 ## Requirements
