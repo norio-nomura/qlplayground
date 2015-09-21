@@ -34,7 +34,6 @@ public class Highlight: NSObject {
         .flatMap { try? String(contentsOfURL: $0)} ?? ""
     static var css: String {
         let style = NSUserDefaults(suiteName: bundle.bundleIdentifier)?.stringForKey("HighlightStyle") ?? "xcode"
-        NSLog("style: \(style)")
         return bundle.URLForResource(style, withExtension: "css", subdirectory: "highlight/styles")
             .flatMap { try? String(contentsOfURL: $0)} ?? ""
     }
