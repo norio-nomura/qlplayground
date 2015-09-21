@@ -16,7 +16,7 @@
 - OS X 10.10.5 or later
 
 ## Installation
-1. Download [qlplayground.qlgenerator-0.1.zip](http://github.com/norio-nomura/qlplayground/releases/download/0.2/qlplayground.qlgenerator-0.2.zip) (2015/09/21 updated)
+1. Download [qlplayground.qlgenerator-0.2.zip](http://github.com/norio-nomura/qlplayground/releases/download/0.2/qlplayground.qlgenerator-0.2.zip) (2015/09/21 updated)
 2. Unzip it
 3. Move `qlplayground.qlgenerator` to `~/Library/QuickLook` folder
 4. run `qlmanage -r` in `Terminal.app`
