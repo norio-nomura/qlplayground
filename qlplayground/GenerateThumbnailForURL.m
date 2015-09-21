@@ -1,6 +1,9 @@
-#include <CoreFoundation/CoreFoundation.h>
-#include <CoreServices/CoreServices.h>
-#include <QuickLook/QuickLook.h>
+@import CoreFoundation;
+@import CoreServices;
+@import QuickLook;
+@import Cocoa;
+#import "qlplayground-swift.h"
+
 
 OSStatus GenerateThumbnailForURL(void *thisInterface, QLThumbnailRequestRef thumbnail, CFURLRef url, CFStringRef contentTypeUTI, CFDictionaryRef options, CGSize maxSize);
 void CancelThumbnailGeneration(void *thisInterface, QLThumbnailRequestRef thumbnail);
@@ -14,6 +17,13 @@ void CancelThumbnailGeneration(void *thisInterface, QLThumbnailRequestRef thumbn
 OSStatus GenerateThumbnailForURL(void *thisInterface, QLThumbnailRequestRef thumbnail, CFURLRef url, CFStringRef contentTypeUTI, CFDictionaryRef options, CGSize maxSize)
 {
     // To complete your generator please implement the function GenerateThumbnailForURL in GenerateThumbnailForURL.c
+    CFDataRef data = (__bridge CFDataRef)[Highlight dataWithURL:(__bridge NSURL * _Nonnull)(url)];
+    if (data) {
+        NSDictionary *properties = @{
+            (id)kQLThumbnailPropertyExtensionKey: [(__bridge NSURL*)url pathExtension]
+        };
+        QLThumbnailRequestSetThumbnailWithDataRepresentation(thumbnail, data, kUTTypeHTML, NULL, (__bridge CFDictionaryRef)(properties));
+    }
     return noErr;
 }
 

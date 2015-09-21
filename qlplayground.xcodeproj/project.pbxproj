@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6CA9010B1BAD6A6700E788B0 /* GenerateThumbnailForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9010A1BAD6A6700E788B0 /* GenerateThumbnailForURL.c */; };
+		6CA9010B1BAD6A6700E788B0 /* GenerateThumbnailForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9010A1BAD6A6700E788B0 /* GenerateThumbnailForURL.m */; };
 		6CA9010D1BAD6A6700E788B0 /* GeneratePreviewForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9010C1BAD6A6700E788B0 /* GeneratePreviewForURL.m */; };
 		6CA9010F1BAD6A6700E788B0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9010E1BAD6A6700E788B0 /* main.c */; };
 		6CA901AC1BAD792E00E788B0 /* CHANGES.md in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CA901171BAD787600E788B0 /* CHANGES.md */; };
@@ -180,7 +180,7 @@
 
 /* Begin PBXFileReference section */
 		6CA901071BAD6A6700E788B0 /* qlplayground.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qlplayground.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
-		6CA9010A1BAD6A6700E788B0 /* GenerateThumbnailForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GenerateThumbnailForURL.c; sourceTree = "<group>"; };
+		6CA9010A1BAD6A6700E788B0 /* GenerateThumbnailForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateThumbnailForURL.m; sourceTree = "<group>"; };
 		6CA9010C1BAD6A6700E788B0 /* GeneratePreviewForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneratePreviewForURL.m; sourceTree = "<group>"; };
 		6CA9010E1BAD6A6700E788B0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		6CA901101BAD6A6700E788B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -295,7 +295,7 @@
 		6CA901091BAD6A6700E788B0 /* qlplayground */ = {
 			isa = PBXGroup;
 			children = (
-				6CA9010A1BAD6A6700E788B0 /* GenerateThumbnailForURL.c */,
+				6CA9010A1BAD6A6700E788B0 /* GenerateThumbnailForURL.m */,
 				6CA9010C1BAD6A6700E788B0 /* GeneratePreviewForURL.m */,
 				6CA901FB1BAD95AE00E788B0 /* Highlight.swift */,
 				6CA9010E1BAD6A6700E788B0 /* main.c */,
@@ -462,7 +462,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CA9010B1BAD6A6700E788B0 /* GenerateThumbnailForURL.c in Sources */,
+				6CA9010B1BAD6A6700E788B0 /* GenerateThumbnailForURL.m in Sources */,
 				6CA9010D1BAD6A6700E788B0 /* GeneratePreviewForURL.m in Sources */,
 				6CA901FC1BAD95AE00E788B0 /* Highlight.swift in Sources */,
 				6CA9010F1BAD6A6700E788B0 /* main.c in Sources */,
