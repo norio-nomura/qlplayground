@@ -3,6 +3,8 @@
 
 `qlplayground` is a QuickLook plugin for Swift files.
 
+![preview](img/preview.png)
+![thumbnail](img/thumbnail.png)
 
 ## Features
 - Support `.swift`
